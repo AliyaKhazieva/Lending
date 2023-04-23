@@ -3,7 +3,7 @@
 
 
 .header__container {
-    background-image: url(./Rectangle\ .jpg);
+    background-image: url(./img/Rectangle5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -430,7 +430,8 @@
 
                 .main__cart-btn {
                     display: flex;
-                    gap: 11px;
+                    justify-content: space-between;
+
 
                     .main__cart-btnMony {
                         font-family: 'Nunito';
@@ -443,7 +444,7 @@
                         color: #000000;
                         background: #FFA200;
                         border-radius: 5px;
-                        padding: 10px 20px;
+                        padding: 8px 13px;
                         border-color: transparent;
                     }
 
@@ -459,7 +460,7 @@
                         color: #FFFFFF;
                         background: #03BAFE;
                         border-radius: 5px;
-                        padding: 10px 20px;
+                        padding: 8px 13px;
                         border-color: transparent;
 
                     }
@@ -894,16 +895,18 @@
             margin-bottom: 20px;
 
             &::before {
-                content: url(./tringle.svg);
+                content: url(./img/tringle.svg);
                 display: block;
                 position: absolute;
                 right: 3px;
+                
 
             }
 
-            &.margin {
-                margin-bottom: 128px;
-            }
+        }
+
+        &.margin {
+            margin-bottom: 128px;
         }
 
         .main__accordion-input {
@@ -948,73 +951,76 @@
 
 }
 
-
-.footer__text{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    color: #000000;
-    margin: 0;
-    margin-bottom: 20px;
-
-}
-
-.footer__conteiner-link {
-
-    display: flex;
-    gap: 60px;
-    justify-content: center;
-    margin-bottom: 70px;
-
-}
-
-.footer__link {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    //text-decoration-line: underline;
-    color: #03BAFE;
-
-    &.link {
-        text-decoration: none;
+.padding {
+    padding-top: 0;
+    .footer__text{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin: 0;
+        margin-bottom: 20px;
+    
     }
-
-}
-
-
-.footer__linkIcons {
-    display: flex;
-    gap: 474px;
-    margin-bottom: 54px;
-
-    .footer__cont-link {
+    
+    .footer__conteiner-link {
+    
         display: flex;
-        gap: 40px;
+        gap: 60px;
+        justify-content: center;
+        margin-bottom: 70px;
+    
+    }
+    
+    .footer__link {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        //text-decoration-line: underline;
+        color: #03BAFE;
+    
+        &.link {
+            text-decoration: none;
+        }
+    
     }
     
     
-    .footer__icons {
+    .footer__linkIcons {
         display: flex;
-        gap: 10px;
+        gap: 474px;
+        margin-bottom: 54px;
+    
+        .footer__cont-link {
+            display: flex;
+            gap: 40px;
+        }
+        
+        
+        .footer__icons {
+            display: flex;
+            gap: 10px;
+        }
     }
+    
+    .footer__textYear {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #666666;
+        margin: 0;
+    }
+    
+    
 }
-
-.footer__textYear {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    color: #666666;
-    margin: 0;
-}
-

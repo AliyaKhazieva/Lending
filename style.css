@@ -5,7 +5,7 @@ body {
 }
 
 .header__container {
-  background-image: url(./Rectangle\ .jpg);
+  background-image: url(./img/Rectangle5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
@@ -361,7 +361,7 @@ body {
 }
 .main__container .main__cart-group .main__cart-information .main__cart-points .main__cart-btn {
   display: flex;
-  gap: 11px;
+  justify-content: space-between;
 }
 .main__container .main__cart-group .main__cart-information .main__cart-points .main__cart-btn .main__cart-btnMony {
   font-family: "Nunito";
@@ -374,7 +374,7 @@ body {
   color: #000000;
   background: #FFA200;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 8px 13px;
   border-color: transparent;
 }
 .main__container .main__cart-group .main__cart-information .main__cart-points .main__cart-btn .main__cart-btnInform {
@@ -388,7 +388,7 @@ body {
   color: #FFFFFF;
   background: #03BAFE;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 8px 13px;
   border-color: transparent;
 }
 .main__container .centering {
@@ -708,12 +708,12 @@ body {
   margin-bottom: 20px;
 }
 .main__container .main__accordion-item .main__accordion-label::before {
-  content: url(./tringle.svg);
+  content: url(./img/tringle.svg);
   display: block;
   position: absolute;
   right: 3px;
 }
-.main__container .main__accordion-item .main__accordion-label.margin {
+.main__container .main__accordion-item.margin {
   margin-bottom: 128px;
 }
 .main__container .main__accordion-item .main__accordion-input {
@@ -745,7 +745,10 @@ body {
   margin: 0;
 }
 
-.footer__text {
+.padding {
+  padding-top: 0;
+}
+.padding .footer__text {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
@@ -757,15 +760,13 @@ body {
   margin: 0;
   margin-bottom: 20px;
 }
-
-.footer__conteiner-link {
+.padding .footer__conteiner-link {
   display: flex;
   gap: 60px;
   justify-content: center;
   margin-bottom: 70px;
 }
-
-.footer__link {
+.padding .footer__link {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
@@ -774,25 +775,23 @@ body {
   letter-spacing: 0.2px;
   color: #03BAFE;
 }
-.footer__link.link {
+.padding .footer__link.link {
   text-decoration: none;
 }
-
-.footer__linkIcons {
+.padding .footer__linkIcons {
   display: flex;
   gap: 474px;
   margin-bottom: 54px;
 }
-.footer__linkIcons .footer__cont-link {
+.padding .footer__linkIcons .footer__cont-link {
   display: flex;
   gap: 40px;
 }
-.footer__linkIcons .footer__icons {
+.padding .footer__linkIcons .footer__icons {
   display: flex;
   gap: 10px;
 }
-
-.footer__textYear {
+.padding .footer__textYear {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
